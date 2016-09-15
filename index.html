@@ -2,10 +2,86 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta content="author: siz11">
     <title>In class Exercise Numero Uno</title>
+    <!--May end up in blank page is no title-->
     <link rel="stylesheet" href="./css/icOne.css">
+    <style>
+    	nav{
+    		color: red;
+    	}
+    </style>
   </head>
   <body>
+  	<header>
+  	<div>
+  		
+  	</div>
 
+  		<nav>
+  			<ul>
+  				<li>
+  					<a href="#">Home</a>
+  				</li>
+  				<li>
+  					<a href="#">About</a>
+  				</li>
+  				<li>
+  					<a href="#">More</a>
+  				</li>
+  				<br>
+  				<a href="#"><img src="./img/title.png" alt="random img" height="100em"></a>
+  			</ul>
+  		</nav>
+  	</header>
+
+  	<section id="sec1">
+  		<!--id needs to be unique-->
+  		
+  		<p class="s1p1">
+  			<img src="./img/random1.png" alt="random img1" width="100em">
+  			body->sec1->p1 <br/>
+  			body->sec1->p1 <br/>
+  			body->sec1->p1 <br/>
+  		</p>
+
+  		
+  	</section>
+
+  	<section id="sec2">
+  		<p class="s2p2">
+  			body->sec2->p <br/>
+  			body->sec2->p <br/>
+  			body->sec2->p <br/>
+  		</p>
+  	</section>
+
+  	<form method="get" action="/">
+      <fieldset class="email">
+        <legend>Email</legend>
+        <input type="text" required>
+        <span class="highlight"></span>
+        <span class="bar"></span>
+      </fieldset>
+
+      <fieldset class="time">
+        <legend>Time</legend>
+        <select name="time">
+          <option value="past">past</option>
+          <option value="present">present</option>
+          <option value="future">future</option>
+        </select>
+      </fieldset>
+
+      <fieldset class="extras">
+        <legend>click</legend>
+        <input type="checkbox" value="no" name="no_select">
+        <label for="no_select">Click</label>
+      </fieldset>
+    </form>
+
+  	<footer>
+  		<p>&copy; Copyright 2016, siz11</p>
+  	</footer>
   </body>
 </html>

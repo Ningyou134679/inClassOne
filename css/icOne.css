@@ -1,3 +1,51 @@
 body, html {
   font-size: 12px;
 }
+
+html{
+	font-size: 62.5%;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#sec1{
+	border: blue dotted 0.5em;
+	background: yellow;
+	margin: 5em 10em 5em 10em;
+	padding: 1em 1em 1em 10em;
+}
+
+#sec2{
+	border: pink solid 0.5em;
+	background: blue;
+	margin: 0em 10em 5em 10em;
+	padding: 1em 1em 1em 10em;
+}
+
+.s1p1{
+	color: red;
+	font-size: 1.2rem;
+}
+
+.s2p2{
+	color: pink;
+	font-size: 1.2rem;
+}
+
+#img1{
+	float: left;
+	margin: 0 0 10px 10px;
+}
+
+nav ul{
+	padding: 0;
+	text-align: center;
+}
+ nav ul li{
+ 		display: inline-block;
+ 		margin-right: 20px;
+}
+
+nav ul li:last-child{
+ 		margin-right: 0;
+}
+
